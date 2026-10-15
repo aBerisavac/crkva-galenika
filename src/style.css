@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Old Standard TT";
+  src: url("/assets/ttf/OldStandardTT-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Old Standard TT";
+  src: url("/assets/ttf/OldStandardTT-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Old Standard TT";
+  src: url("/assets/ttf/OldStandardTT-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  --font-old-standard: "Old Standard TT", serif;
+}
+
+body {
+  font-family: "Old Standard TT", serif;
+}
+html,
+body,
+#app {
+  min-height: 100%;
+
+  color: #1d1c1b;
+}
