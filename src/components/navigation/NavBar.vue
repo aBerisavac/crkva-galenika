@@ -6,7 +6,7 @@
 
 
         <div class="relative w-full flex sm:hidden">
-            <div v-if="!isScrolled" class="absolute flex w-full justify-end">
+            <div v-if="!isScrolled" class="absolute flex w-full justify-end overflow-hidden">
                 <img src="/assets/nav-triangle-cutout-ver1.png" class="w-[180px] -mt-2 -mr-2" />
             </div>
 
